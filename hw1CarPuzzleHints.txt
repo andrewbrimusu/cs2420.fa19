@@ -1,0 +1,11 @@
+//Hints to get started:
+//1 Read through assignment description and program code thoroughly (maybe multiple times).  This is extremely insightful
+//2 Download the .java files, and jamsAll.txt from Canvas, load into intelliJ and run TheMain.java.  This will run the code to load the puzzles.
+//3 Look at Puzzle.solve() method,
+//4 Generate new Node moves using expand() method.  Note: expand() is already written for you
+//5 Add new nodes to a queue implemented as a linked list.  Note: I started with an ArrayList to make sure everything was working, then switched to a LinkedList Queue.
+//6 Add hashCode duplicate logic, so only new Nodes are added to Queue.
+//7 Loop through new nodes, adding new children to Queue looking for solution
+//8 Detect solution and call printSolution() method.  Note Puzzle.printSolution() and depth logic and already written for you
+
+//Other Hints: The code to load the puzzles is provided for you.
