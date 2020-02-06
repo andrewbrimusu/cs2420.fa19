@@ -22,8 +22,25 @@ public class Fib {
     }
 
 
+    public static int factorial(int n) {
+        if (n == 1) return 1;
+        return factorial(n-1)*n;
+    }
+    
+    public static int factorial2(int n) {
+        int res = 1;
+        while (n > 1) {
+            res *= n;
+            n--;
+        }
+        return res;
+    }
+    
     public static void main(String[] args) {
         System.out.println("fib(10): "+ fib(10));
         System.out.println("fib2(10): "+ fib2(10));
+        
+        System.out.println("factorial(4): "+ factorial(4));
+        System.out.println("factorial2(4): "+ factorial2(4));
     }
 }
